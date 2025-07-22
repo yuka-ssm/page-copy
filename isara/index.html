@@ -5,6 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="HTML練習用の模写です" />
         <title>iSara模写サイト</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         <link rel="stylesheet" href="styles.css" />
         <link rel="icon" href="image/favicon.ico" type="image/x-icon" />
     </head>
@@ -366,93 +371,589 @@
             </section>
 
             <section class="flow">
-                受講の流れ Skypeで 事前コンサル
-                現在のスキルの状況、パソコンの環境説明、渡航での注意点を話します。
-                簡単なテストあり
-                iSaraでは受講料を稼げることを保障しています。従って、事前コンサル時点で簡単なテストを実施し、場合によってはお断りをしております。（テストの内容はPCの基礎知識に関するテストですので、普段からパソコンを利用する方でしたら問題ありません。テストはもちろん無料ですので、まずはお問い合わせください。）
-                事前課題の提出 出発前の１ヶ月前に事前課題を送ります。
-                ０から始めるプログラミング事前学習講座、環境構築の事前学習、jQueryの事前学習講座、Bootstrapの事前学習講座、PHP
-                / Mysqlの事前講座
-                課題は多いですが、ここで努力が必須です。プログラミングは高付加価値なスキルです。そのためには学習が必須です。回数無制限のチャットサポート付きですので、最初は努力してください。
-                また、参加者グループコミュニティも作成するので、横の繋がりでモチベーションを高めることもできます。
-                現地に渡航
-                到着日には空港でお出迎えし、初日のオリエンテーションを行います。
-                滞在先は空港からすぐの出来たてシェアハウス。美味しいタイ料理などもご紹介します。
-                iSaraは『ノマド』フリーランス養成講座です。
-                楽しいノマド体験ができるよう、バンコクでの生活はこちらでサポートします。
-                実案件を 通して学ぶ
-                現役フリーランスが抱える案件に加え、クラウドソーシングを使って実案件をこなします。
-                案件獲得のためのメールの書き方や見積りの仕方など、
-                他のプログラミングスクールでは教えてくれない実務スキルを学ぶことができます。
-                ＊現役フリーランスがサポートします。 帰国後の仕事獲得
-                サポート付き
-                経験年数の少ないフリーランスが高単価で継続的に仕事受注するコツ、それがチームを組むことです。
-                iSaraではフリーランスコミュニティを形成し、帰国後のエンジニアでも継続的に稼げる仕組みを提供します。
-                もちろん、個人で十分に稼げるようになった場合はいつでも脱退できますし、制限などは何もありません。
+                <h2>受講の流れ</h2>
+                <img src="image/flow.jpg" alt="受講の流れの画像" class="flow" />
+                <div class="flow-item">
+                    <div class="flow-left">
+                        <img
+                            src="image/skypeconsulting.png"
+                            alt="Skypeで事前コンサルの画像"
+                        />
+                        <h3>
+                            Skypeで<br />
+                            事前コンサル
+                        </h3>
+                    </div>
+                    <div class="flow-right">
+                        <p class="text-small">
+                            現在のスキルの状況、パソコンの環境説明、渡航での注意点を話します。
+                        </p>
+                        <p class="text-small">簡単なテストあり</p>
+                        <p>
+                            iSaraでは受講料を稼げることを保障しています。従って、事前コンサル時点で簡単なテストを実施し、場合によってはお断りをしております。（テストの内容はPCの基礎知識に関するテストですので、普段からパソコンを利用する方でしたら問題ありません。テストはもちろん無料ですので、まずはお問い合わせください。）
+                        </p>
+                    </div>
+                </div>
+                <img src="image/flowline1.png" alt="図をつなぐ線の画像" />
+                <div class="flow-item">
+                    <div class="flow-left">
+                        <img
+                            src="image/preworks.png"
+                            alt="事前課題の提出の画像"
+                        />
+                        <h3>事前課題の提出</h3>
+                    </div>
+                    <div class="flow-right">
+                        <p class="text-small">
+                            出発前の１ヶ月前に事前課題を送ります。
+                        </p>
+                        <p>
+                            ０から始めるプログラミング事前学習講座、環境構築の事前学習、jQueryの事前学習講座、Bootstrapの事前学習講座、PHP
+                            / Mysqlの事前講座
+                        </p>
+                        <p class="text-small">
+                            課題は多いですが、ここで努力が必須です。プログラミングは高付加価値なスキルです。そのためには学習が必須です。回数無制限のチャットサポート付きですので、最初は努力してください。<br />
+                            また、参加者グループコミュニティも作成するので、横の繋がりでモチベーションを高めることもできます。
+                        </p>
+                    </div>
+                </div>
+                <img src="image/flowline2.png" alt="図をつなぐ線の画像" />
+                <div class="flow-item">
+                    <div class="flow-left">
+                        <img src="image/flight.png" alt="現地に渡航の画像" />
+                        <h3>現地に渡航</h3>
+                    </div>
+                    <div class="flow-right">
+                        <p class="text-small">
+                            到着日には空港でお出迎えし、初日のオリエンテーションを行います。<br />
+                            滞在先は空港からすぐの出来たてシェアハウス。美味しいタイ料理などもご紹介します。
+                        </p>
+                        <p class="text-small">
+                            iSaraは『ノマド』フリーランス養成講座です。<br />
+                            楽しいノマド体験ができるよう、バンコクでの生活はこちらでサポートします。
+                        </p>
+                    </div>
+                </div>
+                <img src="image/flowline1.png" alt="図をつなぐ線の画像" />
+                <div class="flow-item">
+                    <div class="flow-left">
+                        <img
+                            src="image/personwithlight.png"
+                            alt="実案件を通して学ぶ図"
+                        />
+                        <h3>
+                            実案件を<br />
+                            通して学ぶ
+                        </h3>
+                    </div>
+                    <div class="flow-right">
+                        <p class="text-small">
+                            現役フリーランスが抱える案件に加え、クラウドソーシングを使って実案件をこなします。
+                        </p>
+                        <p class="text-small">
+                            案件獲得のためのメールの書き方や見積りの仕方など、<br />
+                            他のプログラミングスクールでは教えてくれない実務スキルを学ぶことができます。
+                        </p>
+                        <p>＊現役フリーランスがサポートします。</p>
+                    </div>
+                </div>
+                <img src="image/flowline2.png" alt="図をつなぐ線の画像" />
+                <div class="flow-item">
+                    <div class="flow-left">
+                        <img
+                            src="image/jobsupport.png"
+                            alt="帰国後の仕事獲得サポート付きの画像"
+                        />
+                        <h3>
+                            帰国後の仕事獲得<br />
+                            サポート付き
+                        </h3>
+                    </div>
+                    <div class="flow-right">
+                        <p class="text-small">
+                            経験年数の少ないフリーランスが高単価で継続的に仕事受注するコツ、それがチームを組むことです。
+                        </p>
+                        <p class="text-small">
+                            iSaraではフリーランスコミュニティを形成し、帰国後のエンジニアでも継続的に稼げる仕組みを提供します。
+                        </p>
+                        <p class="text-small">
+                            もちろん、個人で十分に稼げるようになった場合はいつでも脱退できますし、制限などは何もありません。
+                        </p>
+                    </div>
+                </div>
             </section>
+
             <section class="bangkok">
-                なぜバンコクなのか？
-                ここまで見ると、iSaraは日本でも実施可能に見えます。
-                しかし、バンコクを選んだのには理由があります。
-                ・プログラミングフリーランスの最先端
-                ・水準は日本と同じなのに、生活費が安い（毎月８万円ほど）
-                ・昼、夜共に遊びが充実（稼ぐモチベーションアップと息抜きにGOOD）
-                ・日本人が住みやすい（食事が美味しい / 気候が良い / 親日である）
-                環境が大切。さらにこの価格が実現できるのが、バンコクなのです。
+                <h2>なぜバンコクなのか？</h2>
+                <p>
+                    ここまで見ると、iSaraは日本でも実施可能に見えます。<br />
+                    しかし、バンコクを選んだのには理由があります。
+                </p>
+                <ul>
+                    <li>プログラミングフリーランスの最先端</li>
+                    <li>
+                        水準は日本と同じなのに、生活費が安い（毎月８万円ほど）
+                    </li>
+                    <li>
+                        昼、夜共に遊びが充実（稼ぐモチベーションアップと息抜きにGOOD）
+                    </li>
+                    <li>
+                        日本人が住みやすい（食事が美味しい / 気候が良い /
+                        親日である）
+                    </li>
+                </ul>
+                <p>
+                    環境が大切。さらにこの価格が実現できるのが、バンコクなのです。
+                </p>
             </section>
+
             <section class="special">
-                iSara受講生への参加特典
-                講座費用258,000円以上の金額が稼げるまでの「永久サポート延長」を追加します。つまり、実質０円です。
-                iSaraは『実質０円』！更なる特典もあります。 特典１
-                講座費用258,000円以上の金額が稼げるまで、「永久サポート延長」。リスク０で参加できます。
-                特典２
-                iSaraフリーランスコミュニティ参加権利。案件の紹介や、新施設OPENの際の優先利用権が受けられます。
-                特典３
-                講座参加後のシェアハウス利用権利（ドンムアン空港至近のため、とても便利です）
+                <h2>iSara受講生への参加特典</h2>
+                <p>
+                    <span
+                        >講座費用258,000円以上の金額が稼げるまでの「永久サポート延長」</span
+                    >を追加します。つまり、<span>実質０円</span>です。
+                </p>
+                <div class="special-boxs">
+                    <p>iSaraは『実質０円』！更なる特典もあります。</p>
+                    <div class="special-box">
+                        <h3>特典１</h3>
+                        <p>
+                            講座費用258,000円以上の金額が稼げるまで、「永久サポート延長」。リスク０で参加できます。
+                        </p>
+                    </div>
+                    <div class="special-box">
+                        <h3>特典２</h3>
+                        <p>
+                            iSaraフリーランスコミュニティ参加権利。案件の紹介や、新施設OPENの際の優先利用権が受けられます。
+                        </p>
+                    </div>
+                    <div class="special-box">
+                        <h3>特典３</h3>
+                        <p>
+                            講座参加後のシェアハウス利用権利（ドンムアン空港至近のため、とても便利です）
+                        </p>
+                    </div>
+                </div>
             </section>
-            <section class="sepecial-detail">
-                iSaraはボランティアではありません
-                ここまでみると、実質０円で各種サポートもある、特典が多すぎて逆に怪しい。
-                そう思われるかもしれません。
-                しかし、iSaraが目指すことは異なります。
-                月１０万円稼げるエンジニアを輩出し続ける。
-                最大の価値がこれです。
-                iSaraの卒業生が稼ぎ続けることで、小さな経済が動き始めます。
-                ここに最大の価値があり、この講座はその序章にすぎません。
+
+            <section class="special-detail">
+                <h2>iSaraはボランティアではありません</h2>
+                <p>
+                    ここまでみると、実質０円で各種サポートもある、特典が多すぎて逆に怪しい。<br />
+                    そう思われるかもしれません。<br />
+                    しかし、iSaraが目指すことは異なります。
+                </p>
+                <p>月１０万円稼げるエンジニアを輩出し続ける。</p>
+                <p>
+                    最大の価値がこれです。<br />
+                    iSaraの卒業生が稼ぎ続けることで、小さな経済が動き始めます。<br />
+                    ここに最大の価値があり、この講座はその序章にすぎません。
+                </p>
             </section>
+
             <section class="learning">
-                創業者からのメッセージ
-                「一生もののスキル」を身につけ、ノマドライフを楽しもう！
-                初めまして。「iSara（イサラ）」創業者の染谷佳佑と申します。
-                iSaraの開講は、僕達講師陣にとってもとても大きな挑戦です。今回、参加者に圧倒的な価値提供をするために、超少人数制だからできる内容を用意しました。
-                ・「Webエンジニアとして稼ぐ」に特化した超実践的カリキュラム
-                ・フリーランスとして生計を立て、いつでも世界中を旅できるスキル、収入のある講師陣のみを厳選
-                ・講座参加者が25万8,000円の参加費以上を稼ぐまでの無期限サポート延長
-                ここまでのカリキュラムを備えた講座は、世界で唯一iSaraだけでしょう。
-                iSaraでプログラミングや営業を学ぶことで、「一生ものの潰しが効くスキル」が身につきます。
-                もちろん勉強だけでなく、バンコクを楽しめるプログラムも用意しています！
-                ３ヶ月間徹底的にサポートします。ぜひバンコクでお会いしましょう。
+                <h2>創業者からのメッセージ</h2>
+                <p>「一生もののスキル」を身につけ、ノマドライフを楽しもう！</p>
+                <div class="message">
+                    <p>
+                        初めまして。「iSara（イサラ）」創業者の染谷佳佑と申します。
+                    </p>
+                    <p>
+                        iSaraの開講は、僕達講師陣にとってもとても大きな挑戦です。今回、参加者に圧倒的な価値提供をするために、超少人数制だからできる内容を用意しました。
+                    </p>
+                    <p></p>
+                </div>
+
+                <p>
+                    ・「Webエンジニアとして稼ぐ」に特化した超実践的カリキュラム<br />
+                    ・フリーランスとして生計を立て、いつでも世界中を旅できるスキル、収入のある講師陣のみを厳選<br />
+                    ・講座参加者が25万8,000円の参加費以上を稼ぐまでの無期限サポート延長
+                </p>
+                <p>
+                    ここまでのカリキュラムを備えた講座は、世界で唯一iSaraだけでしょう。iSaraでプログラミングや営業を学ぶことで、「一生ものの潰しが効くスキル」が身につきます。もちろん勉強だけでなく、バンコクを楽しめるプログラムも用意しています！
+                </p>
+                <p>
+                    ３ヶ月間徹底的にサポートします。ぜひバンコクでお会いしましょう。
+                </p>
             </section>
+
             <section id="contact-form" class="contact-form">
-                資料請求フォーム まずは無料で資料請求からどうぞ。
-                現在は募集を停止しております🙇‍♂️
+                <h2>資料請求フォーム</h2>
+                <p>まずは無料で資料請求からどうぞ。</p>
+                <p>現在は募集を停止しております🙇‍♂️</p>
             </section>
+
             <section class="questions">
-                よくある質問 プログラミングスキルは必要ですか？
-                いいえ、必要ありません。しかし、iSaraでは参加費以上の金額が稼げることを保障しています。
-                従って、事前通話面談時点で簡単なテストを実施し、場合によってはお断りをしております。この点だけはご了承ください。
-                参加費以上に稼げなかったらどうなりますか？
-                滞在中の宿泊先はどうなりますか？ 滞在中の食事はどうなりますか？
-                追加でかかる費用はありますか？ 就職、転職はできますか？
-                フリーランスにならなければならないのですか？
-                ノマドワーカー的に世界を旅しながら働きたいです。可能ですか？
-                学ぶプログラミング言語はなんですか？
-                将来的にwebサービス、アプリ、メディアを作りたいです。
-                次回開催の予定はありますか？ 海外に出るのが初めてで不安です。
-                タイ語、英語が一切話せません。参加可能でしょうか。
-                治安はどうですか？ パソコンは必要ですか？
+                <h2>よくある質問</h2>
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#faq1"
+                                aria-expanded="true"
+                                aria-controls="faq1"
+                            >
+                                プログラミングスキルは必要ですか？
+                            </button>
+                        </h2>
+                        <div
+                            id="faq1"
+                            class="accordion-collapse collapse show"
+                            aria-labelledby="headingOne"
+                            data-bs-parent="#faqAccordion"
+                        >
+                            <div class="accordion-body">
+                                いいえ、必要ありません。しかし、iSaraでは参加費以上の金額が稼げることを保証しています。従って、事前通話面談時点で簡単なテストを実施し、場合によってはお断りをしております。この点だけはご了承ください。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#faq2"
+                                aria-expanded="false"
+                                aria-controls="faq2"
+                            >
+                                参加費以上に稼げなかったらどうなりますか？
+                            </button>
+                        </h2>
+                        <div
+                            id="faq2"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="headingTwo"
+                            data-bs-parent="#faqAccordion"
+                        >
+                            <div class="accordion-body">
+                                参加費である258,000円以上の金額をトータルで稼ぐまで、無期限でサポート延長いたします。（講座参加後、週30時間以上の実践をすることと、週１回の実践報告をすることが延長条件です。）きちんと学び実践すれば、フリーランスでも収入を作ることは十分に可能です。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq3"
+                            aria-expanded="false"
+                            aria-controls="faq3"
+                        >
+                            滞在中の宿泊先はどうなりますか？
+                        </button>
+                    </h2>
+                    <div
+                        id="faq3"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingThree"
+                        data-bs-parent="#faqAccordion"
+                    >
+                        <div class="accordion-body">
+                            宿泊費用が必要ですが、iSara提携のホステルに宿泊することになりますので心配はありません。
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq4"
+                            aria-expanded="false"
+                            aria-controls="faq4"
+                        >
+                            滞在中の食事はどうなりますか？
+                        </button>
+                    </h2>
+                    <div
+                        id="faq4"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingFour"
+                        data-bs-parent="#faqAccordion"
+                    >
+                        <div class="accordion-body">
+                            拠点となる新築シェアハウスの周辺に、50バーツ程度の（160円）安価な飲食店が多数あります。
+                            日本食レストランもありますし、出前を取ることも可能です。
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq5"
+                            aria-expanded="false"
+                            aria-controls="faq5"
+                        >
+                            追加でかかる費用はありますか？
+                        </button>
+                    </h2>
+                    <div
+                        id="faq5"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingFive"
+                        data-bs-parent="#faqAccordion"
+                    >
+                        <div class="accordion-body">
+                            宿泊費（トータル20000円）と食費（一食150円程度）くらいです。
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq6"
+                            aria-expanded="false"
+                            aria-controls="faq6"
+                        >
+                            就職、転職はできますか？
+                        </button>
+                    </h2>
+                    <div
+                        id="faq6"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingSix"
+                        data-bs-parent="#faqAccordion"
+                    >
+                        <div class="accordion-body">
+                            DODAの調査によると、2017年のエンジニアの求人倍率は7.5倍です。これは、人材不足が叫ばれる医療業界（医師：6倍、看護師：3倍）よりも高い数値です。ですのできちんとしたスキルを身につけることができれば、就職・転職には困らないはずです。元リクルートの転職のプロも運営スタッフとして参加しています。
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq7"
+                            aria-expanded="false"
+                            aria-controls="faq7"
+                        >
+                            フリーランスにならなければならないのですか？
+                        </button>
+                    </h2>
+                    <div
+                        id="faq7"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingSeven"
+                        data-bs-parent="#faqAccordion"
+                    >
+                        <div class="accordion-body">
+                            いいえ、必ずフリーランスにならないといけないわけではありません。実際に過去の卒業生の方の進路も、独立、副業として続ける、就職するなど様々です。
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq8"
+                            aria-expanded="false"
+                            aria-controls="faq8"
+                        >
+                            ノマドワーカー的に世界を旅しながら働きたいです。可能ですか？
+                        </button>
+                    </h2>
+                    <div
+                        id="faq8"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingEight"
+                        data-bs-parent="#faqAccordion"
+                    >
+                        <div class="accordion-body">
+                            きちんと努力し、スキルを身に着けることができれば可能です。
+                            iSaraは、「好きなときに働き、好きなときに遊ぶ」という人生を送れる人を増やすために開講しました。
+                            ちなみに、講師は全員ノマドワーカーとして、働きながら自由に世界中を旅しています。
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq9"
+                            aria-expanded="false"
+                            aria-controls="faq9"
+                        >
+                            学ぶプログラミング言語はなんですか？
+                        </button>
+                    </h2>
+                    <div
+                        id="faq9"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingNine"
+                        data-bs-parent="#faqAccordion"
+                    >
+                        <div class="accordion-body">
+                            HTML / CSS /
+                            PHPを学びます。どの言語も需要が高いです。
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq10"
+                            aria-expanded="false"
+                            aria-controls="faq10"
+                        >
+                            将来的にwebサービス、アプリ、メディアを作りたいです。
+                        </button>
+                    </h2>
+                    <div
+                        id="faq10"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingTen"
+                        data-bs-parent="#faqAccordion"
+                    >
+                        <div class="accordion-body">
+                            経験してる講師がいますよ。大丈夫です。
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq11"
+                            aria-expanded="false"
+                            aria-controls="faq11"
+                        >
+                            次回開催の予定はありますか？
+                        </button>
+                    </h2>
+                    <div
+                        id="faq11"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingEleven"
+                        data-bs-parent="#faqAccordion"
+                    >
+                        <div class="accordion-body">
+                            未定です。まずはお問合せください。
+                        </div>
+                    </div>
+                </div>
+                    <h2 class="accordion-header">
+                        <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq12"
+                            aria-expanded="false"
+                            aria-controls="faq12"
+                        >
+                            海外に出るのが初めてで不安です。
+                        </button>
+                    </h2>
+                    <div
+                        id="faq12"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingTwelve"
+                        data-bs-parent="#faqAccordion"
+                    >
+                        <div class="accordion-body">
+                            講師陣が現地での生活をサポートしますので安心してください。ただしパスポート取得は必要です。
+                        </div>
+                    </div>
+                </div>
+                </div>
+                    <h2 class="accordion-header">
+                        <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq13"
+                            aria-expanded="false"
+                            aria-controls="faq13"
+                        >
+                            タイ語、英語が一切話せません。参加可能でしょうか。
+                        </button>
+                    </h2>
+                    <div
+                        id="faq13"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingThirteen"
+                        data-bs-parent="#faqAccordion"
+                    >
+                        <div class="accordion-body">
+                            タイ語スタッフ、英語スタッフがいるのでOKです。日本人、タイ人スタッフがおりますので、期間中のトラブル対応の心配は必要ありません。
+                        </div>
+                    </div>
+                </div>
+                </div>
+                    <h2 class="accordion-header">
+                        <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq14"
+                            aria-expanded="false"
+                            aria-controls="faq14"
+                        >
+                            治安はどうですか？
+                        </button>
+                    </h2>
+                    <div
+                        id="faq14"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingFourteen"
+                        data-bs-parent="#faqAccordion"
+                    >
+                        <div class="accordion-body">
+                            バンコクは、東南アジアや南アジアの他の国の都市部と比べると、街中も整備されており、非常に治安の良い街です。日本ほどではないですが、世界でも非常に治安の良い国として知られています。
+                        </div>
+                    </div>
+                </div>
+                </div>
+                    <h2 class="accordion-header">
+                        <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq15"
+                            aria-expanded="false"
+                            aria-controls="faq15"
+                        >
+                            パソコンは必要ですか？
+                        </button>
+                    </h2>
+                    <div
+                        id="faq15"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingFifteen"
+                        data-bs-parent="#faqAccordion"
+                    >
+                        <div class="accordion-body">
+                            はい。ノートPCのご用意が必要です。 
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
+        
         <footer class="footer">
             バンコクのノマドエンジニア育成講座、iSara[イサラ] Copyright ©︎ iSara
             All Rights Reserved. Designed by Maya Ogi / Developed by Kentaro
